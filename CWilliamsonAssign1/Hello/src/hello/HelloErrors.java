@@ -1,7 +1,9 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Name: Clarence Williamson
+ * Date: 1/21/17
+ * Course: IT: 2650
+ * Assignment #: 1
+ * Prints Hello World
  */
 package hello;
 

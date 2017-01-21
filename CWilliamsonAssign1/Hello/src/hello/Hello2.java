@@ -18,7 +18,7 @@ public class Hello2 {
     */
     //Prints Hello World to the screen.
     public static void main(String[] args) {
-        System.out.println("Hello World, how are you");
+        System.out.println("Hello World");
     }
     
 }
