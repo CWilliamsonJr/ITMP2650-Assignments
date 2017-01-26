@@ -1,17 +1,14 @@
-package Chapter_2;
+//package Chapter_2;
 
 /*
  * Name: Clarence Williamson
  * Date: 1/26/17
  * Course: IT: 2650
  * Assignment #: 1
- * Prints Hello World
+ * 
  */
 
-/**
- *
- * @author ClevelandCodes
- */
+
 import java.util.Scanner;
 
 public class MinutesConversion {
