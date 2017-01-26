@@ -11,8 +11,7 @@
 syllabus/
 syllabus
 *.zip
-Chapter*
-chapter*
+
 Chapter.*
 chapter.*
 #end of user stuff
