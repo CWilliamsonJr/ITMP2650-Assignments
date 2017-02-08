@@ -12,8 +12,11 @@ syllabus/
 syllabus
 *.zip
 
-Chapter.*
-chapter.*
+/Chapter.*
+/chapter.*
+/chapter
+/Chapter
+/ChapExercises
 #end of user stuff
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
@@ -67,3 +70,5 @@ dist/
 nbdist/
 .nb-gradle/
 /CWilliamsonAssign1/Hello/nbproject/private/
+/CWilliamsonAssign2/Assign2/nbproject/private/
+/CWilliamsonAssign2/Chapter.04/nbproject/private/

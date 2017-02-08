@@ -1,15 +1,14 @@
-//package Chapter_2;
-
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Name: Clarence Williamson
+ * Date: 1/26/17
+ * Course: IT: 2650
+ * Assignment #: 1
+ * 
  */
-//package Chapter_2;
 import java.util.Scanner;
 /**
  *
- * @author ClevelandCodes
+ * @author Clarence
  */
 public class ArithmeticDemo2 {
     public static void main(String[] args){

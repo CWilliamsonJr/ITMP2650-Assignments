@@ -1,17 +1,18 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Name: Clarence Williamson
+ * Date: 1/26/17
+ * Course: IT: 2650
+ * Assignment #: 1
+ * 
  */
-//package Chapter_3;
 
 /**
- *
- * @author ClevelandCodes
+ * calls another class to display info
+ * @author Clarence Williamson
  */
 public class TestInfo {
     public static void main(String[] args){
         System.out.println("Calling method from another class:");
-        ParadiseInfo.DisplayInfo();
+        ParadiseInfo.DisplayInfo(); //calls the Paradise class method DisplayInfo.
     }
 }

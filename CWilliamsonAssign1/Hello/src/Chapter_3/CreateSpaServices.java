@@ -1,7 +1,9 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Name: Clarence Williamson
+ * Date: 1/26/17
+ * Course: IT: 2650
+ * Assignment #: 1
+ * 
  */
 import java.util.Scanner;
 
@@ -46,11 +48,15 @@ public class CreateSpaServices {
         System.out.println(secondService.getServiceDescription() + " $" + secondService.getPrice());
                
     }
-    
+    /**
+     * 
+     * @param s spa service object
+     * @return - returns a spa service object with data fields set.
+     */
     public static SpaService getData(SpaService s){
-        String service;
-        double price;        
-        Scanner keyboard = new Scanner(System.in);
+        String service; // name of spa service
+        double price;  // price of spa service
+        Scanner keyboard = new Scanner(System.in); // used to get input from keyboard.
         
         System.out.print("Enter service >> ");
         service = keyboard.nextLine();
@@ -58,8 +64,8 @@ public class CreateSpaServices {
         System.out.print("Enter price >> ");
         price = keyboard.nextDouble();
         
-        s.setServiceDescription(service);
-        s.setPrice(price);
+        s.setServiceDescription(service); // sets the name of the spa service
+        s.setPrice(price); // sets the price of the spa service.
         
         keyboard.nextLine();
         

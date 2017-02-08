@@ -7,7 +7,10 @@
  */
 //package Chapter_3;
 
-
+/**
+ * Class that is used to make a Student object with the necessary data fields.
+ * @author Clarence
+ */
 public class Student {
    
     private int numberID; // stores the ID number for the student

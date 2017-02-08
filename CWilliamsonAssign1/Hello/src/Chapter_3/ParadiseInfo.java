@@ -1,9 +1,10 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Name: Clarence Williamson
+ * Date: 1/26/17
+ * Course: IT: 2650
+ * Assignment #: 1
+ * 
  */
-//package Chapter_3;
 
 /**
  *
@@ -14,7 +15,9 @@ public class ParadiseInfo {
         
         DisplayInfo();
     }
-    
+    /**
+     * Spa welcome message
+     */
     public static void DisplayInfo(){
         System.out.println("Paradise Day Spa wants to pamper you.");
         System.out.println("We will make you look good.");

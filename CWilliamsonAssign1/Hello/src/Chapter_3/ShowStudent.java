@@ -45,38 +45,3 @@ public class ShowStudent {
     }
 }
 
-/*
-public class Student {
-    private int numberID;
-    private double creditsEarned;
-    private int pointsEarned;
-
-    public int GetStudentID(){
-     return numberID;   
-    }
-    
-    public void SetStudentID(int id){
-      numberID = id;   
-    }
-    
-    public double GetCreditsEarned(){
-        return creditsEarned;
-    }
-    
-    public void SetCreditsEarned(int credits){
-        creditsEarned = credits;
-    }
-    
-    public int GetPointsEarned(){
-        return pointsEarned;
-    }
-    
-    public void SetPointsEarned(int points){
-        pointsEarned = points;
-    }
-    
-    public double CalcGPA(){
-        return pointsEarned / creditsEarned;
-    }
-}
-//*/
