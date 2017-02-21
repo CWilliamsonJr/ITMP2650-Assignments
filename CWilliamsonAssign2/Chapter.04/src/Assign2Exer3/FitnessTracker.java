@@ -13,32 +13,32 @@ import java.util.Locale;
  * @author Clarence
  */
 public class FitnessTracker {
-    String Activity;
-    int Minutes;
-    LocalDate Date;
+    String Activity; //stores the activity name
+    int Minutes; // stores the time length of the activity 
+    LocalDate Date; // holds the date completed  
     
-    public FitnessTracker(){
-        Activity = "running";
-        Minutes = 0;        
-        Date = LocalDate.of(2017,1,1);        
+    public FitnessTracker(){ // sets the activity info with default information
+        Activity = "running"; 
+        Minutes = 0;       
+        Date = LocalDate.of(2017,1,1);      
     }
     
-    public FitnessTracker(String activity,int minutes, String date){
+    public FitnessTracker(String activity,int minutes, String date){ // sets the activity info with custom information
         Activity = activity;
         Minutes = minutes;        
         Date = LocalDate.parse(date);
         
     }
     
-    public String getActivity(){
+    public String getActivity(){ // returns the activity name
         return Activity;
     }
     
-    public int getMinutes(){
+    public int getMinutes(){  // returns the time of the activity
         return Minutes;
     }
     
-    public String getDate(){
+    public String getDate(){  // returns the date of the activity
         return Date.toString();
     }
 }

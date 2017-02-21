@@ -13,9 +13,9 @@ import java.util.Locale;
  * @author Clarence
  */
 public class FitnessTracker2 {
-    String Activity;
-    int Minutes;
-    LocalDate Date;
+    String Activity; // stores the name of the activity
+    int Minutes; // holds the time completion of the activity
+    LocalDate Date; // holds the date completed for the activity
     
     public FitnessTracker2(){
         /*
@@ -23,10 +23,10 @@ public class FitnessTracker2 {
         Minutes = 0;        
         Date = LocalDate.of(2017,1,1); 
         //*/
-        this("running",0,"2017-01-01");
+        this("running",0,"2017-01-01"); // calls the 3 parameter constructer.
     }
     
-    public FitnessTracker2(String activity,int minutes, String date){
+    public FitnessTracker2(String activity,int minutes, String date){ // sets the activity with custom information.
         Activity = activity;
         Minutes = minutes;        
         Date = LocalDate.parse(date);

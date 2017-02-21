@@ -12,12 +12,12 @@ package Assign2Exer3;
 public class TestFitnessTracker {
     public static void main(String[] args){
         
-        DisplayAssigmentInfo(2, "Feburary 8, 2017", 4, 3);
+        DisplayAssigmentInfo(2, "Feburary 8, 2017", 4, 3); // shows assignment information
         
-        FitnessTracker tracker = new FitnessTracker();
+        FitnessTracker tracker = new FitnessTracker(); // makes new instance of fitness tracker
         
         System.out.println("Test of no parameter constructor using the get methods (part A)");
-        System.out.println(tracker.getActivity() +" "+ tracker.getMinutes() +" minutes" + " on " + tracker.getDate());
+        System.out.println(tracker.getActivity() +" "+ tracker.getMinutes() +" minutes" + " on " + tracker.getDate()); // outputs the activity information
         
         System.out.print("\n");
         
