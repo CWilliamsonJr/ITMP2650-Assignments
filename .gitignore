@@ -17,6 +17,7 @@ syllabus
 /chapter
 /Chapter
 /ChapExercises
+/StudentFiles
 #end of user stuff
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
@@ -75,3 +76,4 @@ nbdist/
 /CWilliamsonAssign3/Chaptor.05/nbproject/private/
 /CWilliamsonAssign3/Chapter.05/nbproject/private/
 /CWilliamsonAssign4/Chapter06/nbproject/private/
+/CWilliamsonAssign5/Assign5/nbproject/private/
